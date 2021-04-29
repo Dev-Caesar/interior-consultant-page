@@ -1,0 +1,76 @@
+// || COLOR VARIABLES||
+$primary-color: #181719;
+$white: #ffffff;
+$secondary-color: #a9a9a9;
+$gray: #828282;
+
+// ||FONT VARIABLES
+$font-logo: 'Crimson Pro', serif;
+$font-heading: 'Lora', serif;
+$font-body: 'Montserrat', sans-serif;
+
+// ||MIXIN||//
+@mixin transition-ease {
+  transition: all 0.4s ease-in-out;
+}
+@mixin animation-ease {
+  animation: move 0.2s linear;
+}
+
+@mixin media-md {
+  @media screen and (min-width: 50em) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 75em) {
+    @content;
+  }
+}
+
+// ||BASE STYLES||
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: $gray;
+}
+
+body {
+  font-family: $font-body;
+  font-weight: 400;
+  color: $white;
+  background-color: #181719;
+  // height: 100vh;
+}
+
+footer {
+  font-size: 1.4rem;
+  color: #a9a9a9;
+  font-weight: 500;
+  text-align: center;
+  line-height: 17.07px;
+  margin-bottom: 2.4rem;
+  a:link,
+  a:visited {
+    color: currentColor;
+    font-weight: 700;
+  }
+}

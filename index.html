@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/devchallenges.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Filled|Material+Icons+Rounded|Material+Icons+Sharp|Material+Icons+Two+Tone"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Interior Consultant Challenge</title>
+  </head>
+  <body>
+    <header class="header">
+      <span class="logo__text">
+        <ul>
+          <li><a href="#!">This Interior</a></li>
+        </ul>
+      </span>
+      <nav class="nav" role="navigation">
+        <ul class="nav-menu">
+          <li class="nav-menu__item active">
+            <a class="nav-menu__link" href="">Home</a>
+          </li>
+          <li class="nav-menu__item">
+            <a class="nav-menu__link" href="">Collection</a>
+          </li>
+          <li class="nav-menu__item">
+            <a class="nav-menu__link" href="">About</a>
+          </li>
+          <li class="nav-menu__item">
+            <a class="nav-menu__link" href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-btn">
+        <button
+          class="menu-btn__hamburger"
+          role="button"
+          aria-label="Mobile Navigation Button"
+        >
+          <svg
+            class="menu-btn__hamburger--svg"
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 48 48"
+          >
+            <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z" />
+          </svg>
+        </button>
+        <button
+          class="menu-btn__close"
+          role="button"
+          aria-label="Mobile Navigation Button"
+        >
+          <svg
+            class="menu-btn__close--svg"
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 48 48"
+          >
+            <path
+              d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__content--1">
+        <h1 class="main__heading">Modern interior</h1>
+        <p class="main__text">
+          A full-Service residential & commercial interior design and staging
+          company offering professional organizing & eco-services.
+        </p>
+        <button class="main__btn">
+          Read more <span class="material-icons-outlined"> trending_flat </span>
+        </button>
+      </section>
+      <section class="main__content--2">
+        <img src="images/photo1.png" alt="Artist Room" class="main__img" />
+        <div class="designer">
+          <div class="designer__info">
+            <img src="images/photo2.png" alt="designer photo" />
+            <div class="designer__name">
+              <h3>Aliza Webber</h3>
+              <h6>Interior designer</h6>
+            </div>
+          </div>
+          <h2 class="heading--2">Designed in 2020 by Aliza Webber</h2>
+        </div>
+      </section>
+    </main>
+    <footer class="author">
+      created by
+      <a href="https://devchallenges.io/portfolio/Dev-Caesar"> Dev_caesar</a>
+      <span> &mdash; devchallenges.io</span>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
