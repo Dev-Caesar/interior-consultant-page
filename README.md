@@ -34,8 +34,8 @@
 
 ## Overview
 
-![](./screenshot-desktop.png)
-![](./screenshot-mobile.png)
+![](screenshot-desktop.png)
+![](screenshot-mobile.png)
 
 
 
