@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://interior-consultant-page-tan.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Dev-Caesar/interior-consultant-page">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
+    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
       Challenge
     </a>
   </h3>
